@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Mathe im Schaufenster</title>
     <link rel="stylesheet" href="res/css/main.css" />
+    <script src="res/js/index.js" defer></script>
   </head>
   <body>
     <img
@@ -17,10 +18,20 @@
       src="res/img/SecondpartFlyer.jpg"
       alt="Mathe-im-Schaufenster Flyer Inhalt" />
 
+    <div class="lw-lang-select-parent">
+      <label><span id="lang-label">Language</span>
+        <select id="lang" name="cars">
+          <option value="en">English</option>
+          <option value="de">Deutsch</option>
+        </select>
+      </label>
+    </div>
     <div
-      class="calendly-inline-widget"
-      data-url="https://calendly.com/mathe-im-schaufenster/primary"
-      style="min-width: 320px; height: 700px"></div>
+      class="calendly-inline-widget lw-calendly"
+      data-url="https://calendly.com/mathe-im-schaufenster/primary"></div>
+    <div
+      class="calendly-inline-widget lw-calendly"
+      data-url="https://calendly.com/mathe-im-schaufenster2/secondary"></div>
     <script
       type="text/javascript"
       src="https://assets.calendly.com/assets/external/widget.js"
