@@ -1,0 +1,11 @@
+.prettierignore
+.npmrc
+.gitignore
+package-lock.json
+.github/workflows/
+.idea/
+**/*.pdf
+**/*.png
+**/*.jpg
+**/*.afdesign
+**/*.svg
