@@ -55,3 +55,7 @@ img {
 .lw-lang-select-parent label select:hover {
   background-color: #EEF5FF;
 }
+
+.hidden {
+  display: none;
+}

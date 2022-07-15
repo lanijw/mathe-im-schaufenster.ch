@@ -8,7 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Mathe im Schaufenster</title>
     <link rel="stylesheet" href="res/css/main.css" />
-    <script src="res/js/index.js" defer></script>
+    <script
+      type="text/javascript"
+      src="https://assets.calendly.com/assets/external/widget.js"
+      async></script>
+    <script src="res/js/index.js" type="text/javascript" defer></script>
   </head>
   <body>
     <img
@@ -20,21 +24,20 @@
 
     <div class="lw-lang-select-parent">
       <label><span id="lang-label">Language</span>
-        <select id="lang" name="cars">
+        <select id="lang-select" name="cars">
           <option value="en">English</option>
           <option value="de">Deutsch</option>
         </select>
       </label>
     </div>
+
     <div
+      id="calendly-widget-en"
       class="calendly-inline-widget lw-calendly"
       data-url="https://calendly.com/mathe-im-schaufenster/primary"></div>
     <div
-      class="calendly-inline-widget lw-calendly"
+      id="calendly-widget-de"
+      class="calendly-inline-widget lw-calendly hidden"
       data-url="https://calendly.com/mathe-im-schaufenster2/secondary"></div>
-    <script
-      type="text/javascript"
-      src="https://assets.calendly.com/assets/external/widget.js"
-      async></script>
   </body>
 </html>
